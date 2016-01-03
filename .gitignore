@@ -1,8 +1,8 @@
-bject files
+# Object files
 *.o
 *.ko
 *.obj
-*.elf
+*.elfs
 
 # Precompiled Headers
 *.gch
