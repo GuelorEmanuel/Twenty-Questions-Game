@@ -1,0 +1,8 @@
+a5: question2.c
+	gcc -g -w -std=c99 question2.c gameSwitch.c winAndLose.c -o a5
+
+clean:
+	rm -f *.o *.d question2.out gameSwitch.out windAndLose.out a5
+
+style:
+	astyle --style=ansi question2.c gameSwitch.c winAndLose.c a5defs.h
